@@ -1,0 +1,22 @@
+# Error log
+
+Every miss goes here: from practice sets, notebooks and mocks. This file is the most valuable thing in the repo by Week 7, because Week 7 is built entirely from it.
+
+**Categories:**
+- **misread**: you answered a different question than the one asked
+- **convention**: you used your own definition instead of the paper's
+- **arithmetic**: a slip in calculation
+- **concept**: you didn't know or understand the idea
+- **time**: you ran out or rushed
+
+| Date | Problem | My answer | Category | What I should have noticed (the cue) | Redo date | Redo OK? |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
+---
+
+## Moves I own
+
+Write each move **in your own words**, the first time you discover it (see `toolkit/MOVES.md` for names). One or two sentences, plus the problem where you found it.
+
+-

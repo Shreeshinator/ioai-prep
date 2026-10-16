@@ -1,0 +1,8 @@
+# Stage 1 notebooks
+numpy
+matplotlib
+jupyterlab
+# Stage 2 (after 13 Dec): uncomment
+# pandas
+# scikit-learn
+# seaborn
