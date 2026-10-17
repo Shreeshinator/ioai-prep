@@ -55,18 +55,19 @@ From `AUTHORING.md`: **Hook** (why care), **Aha** (the insight to reach), **Stru
   - Log every miss with a category: *misread / convention / arithmetic / concept / time*.
   - **Don't read any full solutions yet.** You'll re-attempt the misses during the weeks that cover them.
 
-## Week 1 (19–25 Oct): Evaluation metrics
+## Week 1 (19–25 Oct): Evaluation metrics (short week: SOF IMO on Fri 23 Oct)
 `notebooks/01_metrics.ipynb` · `practice/01-metrics.md`
 
+- **SOF IMO on Fri 23 Oct.** Mon–Thu go to IMO prep; its algebra and counting overlap with Stage 1 anyway. Week 1 shrinks to the weekend. You already know most of this topic, so problems come first, and you only read a notebook section closely if its problem went wrong.
 - **Hook:** your gripper detector is "95% accurate", so why does it keep grabbing air?
 - **Aha:** every rate is a *count ÷ a group*. Rates measured within a true class (recall, FPR) ignore prevalence; precision doesn't. AUC only sees the *order* of the scores.
 - **Struggle:** problem 1.5's rows-are-predicted convention; turning rates into counts under a capacity limit (1.3).
 - **Practice:** Set 01, then re-attempt Jan 18 **B1** (notebook §9).
 - **Connect:** precision is "P(sick | flagged)". You'll see next week that this is Bayes.
 
-| Mon | Tue | Thu | Sat | Sun |
-|---|---|---|---|---|
-| Notebook §1–3 | §4–5; problem 1.2 on paper | 1.1, 1.3 on paper → check; §6 | 1.4, 1.5; §7–8 | B1 walkthrough (§9) + Connect + teach-back |
+| Mon–Thu | Fri 23 | Sat 24 (90 min) | Sun 25 (2 h) |
+|---|---|---|---|
+| SOF IMO prep. No INAIO work | **SOF IMO** | 1.1–1.3 on paper, then BUILDs 1–4 (§1–5) and check your answers. Read §3 or §6 closely only if 1.1 or 1.3 went wrong | 1.4, 1.5 on paper; §7–8 (BUILD 5); B1 walkthrough (§9) + Connect + teach-back |
 
 ## Week 2 (26 Oct – 1 Nov): Probability & Bayes
 `notebooks/02_probability.ipynb` · `practice/02-probability.md`

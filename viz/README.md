@@ -8,6 +8,12 @@ Built **on demand**, when an explanation needs a picture. Each visual starts fro
 - manim: `pip install manim`, then `manim -pqm scene.py SceneName` (`-qm` = medium quality).
 - Link each visual from the matching solution's hint ladder or notebook section once it exists.
 
+## Requested (build these first)
+
+| Question the visual answers | Asked in | Supports | Suggested form |
+|---|---|---|---|
+| Why is PC1 an eigenvector of the covariance matrix? Rotate a line through the cloud: the shadows slide, the spread rises and falls, and at the peak S·u lines up with u | [Issue #1](https://github.com/Shreeshinator/ioai-prep/issues/1) | Notebook 03 §7, 3.5 | manim: rotating line and shadows, the spread-vs-angle curve traced alongside, and the S·u arrow turning until it aligns |
+
 ## Shortlist: where a visual would help most
 
 Ranked by how often students get stuck on the idea:
