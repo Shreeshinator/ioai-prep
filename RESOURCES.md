@@ -16,7 +16,7 @@ Problems beat videos. Watch a video only to unlock a concept you're stuck on (1.
 | [inaio.in](https://www.inaio.in/) | Dates, registration, announcements. Check it around **29 Nov** for the Stage 1 format |
 | [inaio.in/resources](https://www.inaio.in/resources) | Official past papers (all copied into `papers/`), the Stage 2 papers and notebooks, INAIO's curated resource list, and the "Using AI tools for preparation" guide |
 | [IOAI resources](https://ioai-official.org/resources/) | Past IOAI tasks and other countries' national olympiads. Mostly coding, so they're **Stage 2+ material**; save them for after 13 Dec |
-| [Bangladesh AI Olympiad 2025 preliminary (PDF)](https://github.com/mdajijulhakimquanta/BdAIO/blob/main/bdaio-2025-preliminary.pdf) | A first-round paper from another country; a candidate for the Week 7 mock |
+| [Bangladesh AI Olympiad 2025 preliminary (PDF)](https://github.com/mdajijulhakimquanta/BdAIO/blob/main/bdaio-2025-preliminary.pdf) | A first-round paper from another country; a spare unseen paper if you want one more mock |
 | [Polish AI Olympiad](https://github.com/OlimpiadaAI/I-OlimpiadaAI) · [Hungarian AI Olympiad](https://github.com/Hungarian-AI-Olympiad/HAIO-Hungarian-AI-Olympiad) | More national papers (mostly Stage 2 style) |
 
 ## By topic (syllabus order)

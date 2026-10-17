@@ -55,7 +55,7 @@ The loop for every problem:
 
 | Path | What's there |
 |---|---|
-| [`PLAN.md`](PLAN.md) | The 8-week schedule (about 5 h/week, built around school) and the mock dates |
+| [`PLAN.md`](PLAN.md) | The 8-week schedule (about 5 h/week, built around school, tuition and Allen) and the mock dates |
 | [`practice/`](practice/) | Six original problem sets (problems + hint-ladder solutions) |
 | [`notebooks/`](notebooks/) | Guided notebooks: build each idea from scratch, check answers without spoilers, explore |
 | [`papers/`](papers/) | Official past papers + our worked solutions |
@@ -70,5 +70,5 @@ The loop for every problem:
 
 - **Shreesh:** commit and push after every session, e.g. `git commit -m "w2 tue: set 02 #1-3"`.
 - **Questions:** open a GitHub issue titled with the problem id (e.g. "3.5: why is the eigenvector the direction?").
-- **Varun:** reviews the logs on Sunday, runs the teach-back, picks the mixed sets, and builds visuals in `viz/`.
+- **Varun:** reviews the logs on Sunday, runs the teach-back, writes practice variants for stubborn misses, and builds visuals in `viz/`.
 - **Don't open a paper before its mock date.** The Feb 28 retest only measures your growth if it's unseen.

@@ -7,9 +7,8 @@ One line per session. Fill in the Sunday review with Varun.
 | Day | Minutes | What I did | Guess → actual (one problem) | One thing I learned |
 |---|---|---|---|---|
 | Mon | | | | |
-| Tue | | | | |
-| Thu | | | | |
-| Sat | | | | |
+| Wed | | | | |
+| Fri | | | | |
 | Sun | | | | |
 
 **Sunday review:**
