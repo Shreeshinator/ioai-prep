@@ -6,7 +6,7 @@ All papers are official INAIO practice material from [inaio.in/resources](https:
 |---|---|---|---|
 | `2026-stage1-jan18/` | 2026 Stage 1 (18 Jan), 26 pp | `SOLUTIONS.md` (ours, unofficial, checked by `verify.py`) | **Diagnostic**, Sun 18 Oct |
 | `2026-stage1-feb28-alt/` | 2026 Stage 1 alternate (28 Feb), 26 pp | `SOLUTIONS.md` (ours, unofficial) | **Retest**, Sun 29 Nov, 10:00–12:00 |
-| `2025-stage1/sample-test.pdf` | 2025 Stage 1 sample, 10 pp | Solutions on its last page | Short fresh paper, Fri 4 Dec (60 min) |
+| `2025-stage1/sample-test.pdf` | 2025 Stage 1 sample, 10 pp | Solutions on its last page | Check on the sprint, Sun 25 Oct (60 min) |
 | `2025-stage1/actual-test.pdf` | 2025 Stage 1 actual, 26 pp | `answer-key-and-results.pdf` (official) | **Final rehearsal**, Sun 6 Dec |
 
 **Don't open a paper before its mock date.** The retest only measures growth if it's unseen.

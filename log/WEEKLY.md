@@ -2,7 +2,23 @@
 
 One line per session. Fill in the Sunday review with Varun.
 
-## Week 1 (19–25 Oct)
+## Sprint (19–25 Oct): Weeks 1–3
+
+| Day | Minutes | What I did | Guess → actual (one problem) | One thing I learned |
+|---|---|---|---|---|
+| Mon | | | | |
+| Tue | | | | |
+| Wed | | | | |
+| Thu | | | | |
+| Sun | | | | |
+
+**Sunday review:**
+- Teach-back problem:
+- Varun's hardest "why?":
+- Connect question answer:
+- Next week, change:
+
+## Week 4 (26 Oct – 1 Nov)
 
 | Day | Minutes | What I did | Guess → actual (one problem) | One thing I learned |
 |---|---|---|---|---|
@@ -17,4 +33,4 @@ One line per session. Fill in the Sunday review with Varun.
 - Connect question answer:
 - Next week, change:
 
-<!-- Copy the Week 1 block for each new week. -->
+<!-- Copy the Week 4 block for each new week. -->

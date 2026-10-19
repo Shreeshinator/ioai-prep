@@ -16,7 +16,7 @@ Problems beat videos. Watch a video only to unlock a concept you're stuck on (1.
 | [inaio.in](https://www.inaio.in/) | Dates, registration, announcements. Check it around **29 Nov** for the Stage 1 format |
 | [inaio.in/resources](https://www.inaio.in/resources) | Official past papers (all copied into `papers/`), the Stage 2 papers and notebooks, INAIO's curated resource list, and the "Using AI tools for preparation" guide |
 | [IOAI resources](https://ioai-official.org/resources/) | Past IOAI tasks and other countries' national olympiads. Mostly coding, so they're **Stage 2+ material**; save them for after 13 Dec |
-| [Bangladesh AI Olympiad 2025 preliminary (PDF)](https://github.com/mdajijulhakimquanta/BdAIO/blob/main/bdaio-2025-preliminary.pdf) | A first-round paper from another country; a spare unseen paper if you want one more mock |
+| [Bangladesh AI Olympiad 2025 preliminary (PDF)](https://github.com/mdajijulhakimquanta/BdAIO/blob/main/bdaio-2025-preliminary.pdf) | A 5-hour, ICPC-style **coding** contest, not a written paper. Stage 2 practice only |
 | [Polish AI Olympiad](https://github.com/OlimpiadaAI/I-OlimpiadaAI) · [Hungarian AI Olympiad](https://github.com/Hungarian-AI-Olympiad/HAIO-Hungarian-AI-Olympiad) | More national papers (mostly Stage 2 style) |
 
 ## By topic (syllabus order)
@@ -32,7 +32,7 @@ Problems beat videos. Watch a video only to unlock a concept you're stuck on (1.
 | TF-IDF, ranking metrics, PageRank | Notebook 04 | Covers all three from scratch. StatQuest has no videos on them |
 | | [The $25,000,000,000 Eigenvector (PDF)](https://www.rose-hulman.edu/~bryan/googleFinalVersionFixed.pdf) | A short read on PageRank, and a second look at eigenvectors that helps with PCA. Week 4 |
 | | [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/) (free) | Reference only. If you want tf-idf in three pages: §6.2 |
-| Convolution | [3Blue1Brown: But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA) | Week 4. Note how the kernel **flips**. Leave StatQuest's CNN video (#86) until after Stage 1: like PyTorch, it slides the filter without flipping it |
+| Convolution | [3Blue1Brown: But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA) | Week 4. Note how the kernel **flips**. StatQuest's CNN video (#86) is on the familiarity list, but watch it only after notebook 04 §7–8: like PyTorch, it slides the filter without flipping it |
 | Linear algebra | [3Blue1Brown: Essence of linear algebra](https://www.3blue1brown.com/) | Done. Re-watch chapters 14–15 (eigenvectors; the quick trick for eigenvalues) before notebook 03 §7 |
 | Algebra, inequalities, series, counting | [IOQM past papers (HBCSE)](https://olympiads.hbcse.tifr.res.in/) | Algebra and combinatorics only; skip geometry. Doubles as SOF IMO practice |
 | | [AoPS Alcumus](https://artofproblemsolving.com/alcumus) (free, adaptive) | 15-min drills on free days: quadratics, AM-GM, series, counting & probability |
@@ -43,7 +43,7 @@ Problems beat videos. Watch a video only to unlock a concept you're stuck on (1.
 
 ## StatQuest ML playlist: what to watch
 
-The [Machine Learning playlist](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) had 100 videos on 17 Oct 2026; **#** is the position in the playlist. Stage 1 needs **6 new videos, about 75 min** (50 min at 1.5×). Every other video is either something you already know, Stage 2 material, or on no INAIO syllabus.
+The [Machine Learning playlist](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) had 100 videos on 17 Oct 2026; **#** is the position in the playlist. Stage 1 needs **6 new videos, about 75 min** (50 min at 1.5×). Another **9 videos (about 2.5 h)** are for familiarity: they go beyond the syllabus, but past papers have asked about their ideas. Every other video is either something you already know, Stage 2 material, or on no INAIO syllabus.
 
 **Watch** (new to you, on the Stage 1 syllabus):
 
@@ -67,13 +67,29 @@ The [Machine Learning playlist](https://www.youtube.com/playlist?list=PLblh5JKOo
 | 43 | K-nearest neighbors | 5:30 | 3.1 |
 | 46 | Decision and Classification Trees | 18:08 | 3.3 (Gini, as in the video) |
 
-**Optional:** 31 (PCA main ideas in 5 minutes), 7 (Entropy, in case a tree question uses information gain instead of Gini), 16 (Logistic Regression, one kind of linear classifier), 11 (Multiple Regression, 5 min), 5 (the 42-second sing-along, which really does help with precision vs recall).
+**Familiarity** (beyond the Stage 1 syllabus; added after [issue #1](https://github.com/Shreeshinator/ioai-prep/issues/1)): both 2026 papers had a "which claims are true?" question in B1 about classifier designs and loss functions, and Jan 18 had one about LLM reliability. The question didn't define everything, so having seen the ideas before helps. Watch these in the free week (Thu 22 Oct) and in bonus week A.
 
-**After 13 Dec** (Stage 2: overfitting, tuning, embeddings, retrieval, scikit-learn): 25–28, 32, 47, 50, 52–53, 55–57, 76–86, 89, 91–94, plus the Python walkthroughs 34, 51 and 75.
+| # | Video | Length | What it gives you |
+|---|---|---|---|
+| 16 | Logistic Regression | 8:48 | A linear classifier whose output is a probability |
+| 18 | Logistic Regression Details Pt 2: Maximum Likelihood | 10:23 | Where the logistic (log) loss comes from |
+| 56 | Gradient Descent, Step-by-Step | 23:54 | What a loss function is *for*: training means pushing it down (this one is on the syllabus) |
+| 82 | Neural Networks Part 5: ArgMax and SoftMax | 14:03 | Turning scores for many classes into probabilities |
+| 84 | Neural Networks Part 6: Cross Entropy | 9:31 | The loss behind most classifiers |
+| 76 | The Essential Main Ideas of Neural Networks | 18:54 | What a network is, at the level a judgement question needs |
+| 86 | Neural Networks Part 8: CNNs | 15:24 | 2-D convolution as used in practice. **After notebook 04 §7–8:** it doesn't flip the kernel, and the exam does |
+| 89 | Word Embedding and Word2Vec | 16:12 | Words as vectors; similarity by direction |
+| 93 | Decoder-Only Transformers | 36:45 | How ChatGPT writes text one token at a time, and so why it can be confidently wrong |
+
+StatQuest doesn't compare loss functions side by side. After the diagnostic, read the Jan 18 B1 Q6 solution (`papers/2026-stage1-jan18/SOLUTIONS.md`): it tabulates squared, hinge and logistic loss and shows what each one rewards.
+
+**Optional:** 31 (PCA main ideas in 5 minutes), 7 (Entropy, in case a tree question uses information gain instead of Gini), 11 (Multiple Regression, 5 min), 5 (the 42-second sing-along, which really does help with precision vs recall).
+
+**After 13 Dec** (Stage 2: overfitting, tuning, embeddings, retrieval, scikit-learn): 25–28, 32, 47, 50, 52–53, 55, 57, 77–81, 83, 85, 91–92, 94, plus the Python walkthroughs 34, 51 and 75.
 
 **Skip:**
 - R-only: 21, 24, 29, 33, 38, 54
-- Statistical inference (p-values, deviance, ANOVA, odds ratios): 10, 12–15, 17–20, 22
+- Statistical inference (p-values, deviance, ANOVA, odds ratios): 10, 12–15, 17, 19–20, 22
 - Methods on no INAIO syllabus: 8, 35, 37, 39, 42, 45, 48–49, 58–62, 64–70, 72–74, 87–88, 90
 - Already covered, or just for fun: 1, 36, 63
 - Beyond Stage 2 (PyTorch, transformer matrix maths): 95–100
