@@ -69,7 +69,7 @@ The sprint does three weeks of content in four free days, so the plan gains two 
 |---|---|---|
 | **Sun 18 Oct**, 10:00–12:00 | 2026 Stage 1, Jan 18: `papers/2026-stage1-jan18/` | **Diagnostic.** Shows where you stand today |
 | Sun 25 Oct, 10:00–11:00 | 2025 Stage 1 sample test | Short check on the sprint; solutions on its last page |
-| Sun 22 Nov, 10:00–12:00 | An unseen paper from another country's AI olympiad (`papers/international/`) | Full-length practice on fresh questions |
+| Sun 22 Nov, 10:00–12:00 | Iran's 2026 Stage 1 paper in English translation (see `papers/international/README.md`) | Closest match to INAIO conditions, on fresh questions |
 | **Sun 29 Nov**, 10:00–12:00 | 2026 Stage 1 *alternate*, Feb 28: `papers/2026-stage1-feb28-alt/` | **Retest.** Same 14 topics as the diagnostic with new numbers, so the score difference measures your growth |
 | **Sun 6 Dec**, 10:00–12:00 | 2025 Stage 1 actual test | **Final rehearsal**, graded with the official key |
 
@@ -103,7 +103,7 @@ School is off this week ([issue #1](https://github.com/Shreeshinator/ioai-prep/i
 | **Mon 19** | Jan 18 diagnostic, if you haven't taken it yet, then 15 min grading. Already done? Start the afternoon block now | **Week 1:** Set 01 on paper → check → notebook 01 sections behind any miss → B1 walkthrough (§9) + Connect | IMO, 1 h |
 | **Tue 20** | **Week 2:** notebook 02 §1–6; 2.1–2.3 on paper → check | §7–10; 2.4–2.6 on paper → check; Pit-Stop + Blind Board walkthroughs (§11–12) + Connect | IMO, 1 h. Videos: 3B1B Bayes and medical test paradox; StatQuest #44 |
 | **Wed 21** | **Week 3:** notebook 03 §1–6; 3.1–3.4 on paper → check | §7 PCA + 3.5; §8–11 (linear classifier, B4 walkthrough) + Connect | IMO, 1 h. Videos: StatQuest #41, #40, #30, #9 |
-| **Thu 22** | IMO practice: today's main job | Light: a few Bebras tasks; StatQuest familiarity videos (`RESOURCES.md`) | Early night |
+| **Thu 22** | IMO practice: today's main job | Light: a few Bebras tasks; StatQuest familiarity videos (`RESOURCES.md`); the Philippines Finals theory paper (`papers/international/`) | Early night |
 | Fri 23 | **SOF IMO** | | |
 | **Sun 25** | 10:00–11:00: 2025 sample test, timed; grade it with its last page and log misses | 11:00–12:00: teach-back on Weeks 1–3 with Varun | |
 
@@ -183,7 +183,7 @@ The Hook, Aha, Struggle and Connect for each of Weeks 1–3 are below.
 
 | Mon | Wed | Fri | Sun |
 |---|---|---|---|
-| Error log: redo every miss from Weeks 1–3, cold | StatQuest familiarity list, part 1: losses and classifiers (`RESOURCES.md`). Then read the Jan 18 B1 Q6 solution, even if you got it right | Error log: redo every miss from Weeks 4–6, cold | **Mock, 10:00–12:00:** an unseen paper from `papers/international/` |
+| Error log: redo every miss from Weeks 1–3, cold | StatQuest familiarity list: losses and classifiers (`RESOURCES.md`). Read the Jan 18 B1 Q6 solution, even if you got it right. Then an English paper from `papers/international/` | Error log: redo every miss from Weeks 4–6, cold | **Mock, 10:00–12:00:** Iran 2026 Stage 1, in English |
 
 ## Bonus week B (23–29 Nov): Weak spots → retest
 

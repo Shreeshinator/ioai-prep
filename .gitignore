@@ -5,3 +5,6 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# Third-party papers kept locally only (not redistributable)
+papers/international/_local/

@@ -9,6 +9,8 @@ All papers are official INAIO practice material from [inaio.in/resources](https:
 | `2025-stage1/sample-test.pdf` | 2025 Stage 1 sample, 10 pp | Solutions on its last page | Check on the sprint, Sun 25 Oct (60 min) |
 | `2025-stage1/actual-test.pdf` | 2025 Stage 1 actual, 26 pp | `answer-key-and-results.pdf` (official) | **Final rehearsal**, Sun 6 Dec |
 
+Papers from other countries' AI olympiads are in [`international/`](international/README.md).
+
 **Don't open a paper before its mock date.** The retest only measures growth if it's unseen.
 
 **About our solutions:** no official key exists for either 2026 paper. Our answers are checked numerically (`verify.py` in each folder). A few questions are genuinely ambiguous, for example Jan 18 B2 Q2–Q3 and Feb 28 B1 Q1/Q4/Q6. For those, the solution explains each reading and why we chose one. When grading a mock, give yourself credit for a well-argued alternative reading.

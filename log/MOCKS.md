@@ -6,7 +6,7 @@ All mocks: timed, on paper, no calculator, no internet, no AI. Record the score 
 |---|---|---|---|---|---|---|---|---|---|---|
 | Sun 18 Oct | Jan 18 2026 (diagnostic) | | | | | | | | /70 | |
 | Sun 25 Oct | 2025 sample (60 min) | | — | — | — | — | — | — | /46 | |
-| Sun 22 Nov | International paper: | | — | — | — | — | — | — | | |
+| Sun 22 Nov | Iran 2026 Stage 1 (English translation) | | — | — | — | — | — | — | /60 | |
 | Sun 29 Nov | Feb 28 2026 alternate (retest) | | | | | | | | /70 | |
 | Sun 6 Dec | 2025 actual (final rehearsal) | | — | — | — | — | — | — | /80 | |
 
