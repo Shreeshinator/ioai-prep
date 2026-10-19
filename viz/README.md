@@ -13,6 +13,7 @@ Built **on demand**, when an explanation needs a picture. Each visual starts fro
 | Question the visual answers | Asked in | Supports | Suggested form |
 |---|---|---|---|
 | Why is PC1 an eigenvector of the covariance matrix? Rotate a line through the cloud: the shadows slide, the spread rises and falls, and at the peak S·u lines up with u | [Issue #1](https://github.com/Shreeshinator/ioai-prep/issues/1) | Notebook 03 §7, 3.5 | manim: rotating line and shadows, the spread-vs-angle curve traced alongside, and the S·u arrow turning until it aligns |
+| Why can AUC be computed as pairwise wins? Each right-step rectangle in ROC equals the count of positives above that negative | [Issue #3](https://github.com/Shreeshinator/ioai-prep/issues/3) | Notebook 01 (AUC), 1.2 | manim: ROC staircase + per-negative rectangles + wins/(P·N) |
 
 ## Shortlist: where a visual would help most
 
@@ -32,4 +33,6 @@ Ranked by how often students get stuck on the idea:
 
 ## Built so far
 
-*(none yet)*
+| Visual | Question answered | Supports | Files |
+|---|---|---|---|
+| AUC pair count | Why does AUC equal the fraction of positive-negative pairs where the positive score is higher? | Notebook 01 (AUC), Practice 1.2 | `viz/auc-pair-count/scene.py`, `viz/auc-pair-count/README.md`, `viz/auc-pair-count/AUCPairCountScene.mp4` |
