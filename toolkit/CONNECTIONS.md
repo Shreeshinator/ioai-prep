@@ -1,5 +1,7 @@
 # Connections: the same idea in different clothes
 
+A **connection** means two different-looking problems are solved using the same underlying move.
+
 A single insight only helps on the problem where you learned it. The real skill is noticing that a new problem is an *old idea in disguise*. Each theme below shows up in several places. When you meet a theme for the second time, come here, add the new place, and write one sentence on *why* it's the same idea.
 
 | Theme | Where it appears | The shared idea |

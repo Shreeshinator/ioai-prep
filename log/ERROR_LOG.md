@@ -17,6 +17,14 @@ Every miss goes here: from practice sets, notebooks and mocks. This file is the 
 
 ## Moves I own
 
-Write each move **in your own words**, the first time you discover it (see `toolkit/MOVES.md` for names). One or two sentences, plus the problem where you found it.
+Write each move **in your own words**, the first time you discover it (see `toolkit/MOVES.md` for names).
+
+A **move** is a repeatable solving step you can use again when you see the same cue (for example: "first read the paper's exact definition").
+
+For each new move, fill:
+- Move name (M#)
+- Cue you noticed in the question
+- Your 1–2 sentence explanation in simple words
+- First problem where you used it
 
 -
