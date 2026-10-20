@@ -6,7 +6,7 @@ One line per session. Fill in the Sunday review with Varun.
 
 | Day | Minutes | What I did | Guess → actual (one problem) | One thing I learned |
 |---|---|---|---|---|
-| Mon | 80 |Notebook 1 till concept 9 | | I learned many things :D|
+| Mon | 80 |Notebook 1 till concept 9 | root 20 RMSE class b for problem 1.4 b)| I learned many things :D|
 | Tue |Notebook 1 complete |Practice problems | |Multiclass confusion matrix interpretation |
 | Wed | | | | |
 | Thu | | | | |
