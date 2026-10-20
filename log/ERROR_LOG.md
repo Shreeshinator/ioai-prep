@@ -26,13 +26,14 @@ For each new move, fill:
 - Cue you noticed in the question
 - Your 1–2 sentence explanation in simple words
 - First problem where you used it
-
+---
 - Move M1
 - Questions put predictions on the rows and actual on the columns
 - Read the definition given, don't be stuck trying to remember if what you learned is wrong
 - The 3 class confusion matrix (problem 1.5)
-
+---
 - Move M2
 - Question gives rates, and we have to get counts
 - Convert rates into counts by simple multiplicatoin
 - Problem 1.1
+---
