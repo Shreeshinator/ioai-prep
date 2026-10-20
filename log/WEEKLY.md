@@ -15,7 +15,11 @@ One line per session. Fill in the Sunday review with Varun.
 **Sunday review:**
 - Teach-back problem:
 - Varun's hardest "why?":
-- Connect question answer:
+- Connection answer (same idea, different clothes):
+  - Theme from `toolkit/CONNECTIONS.md`:
+  - Place 1:
+  - Place 2:
+  - Why they are the same idea (one sentence):
 - Next week, change:
 
 ## Week 4 (26 Oct – 1 Nov)
@@ -30,7 +34,11 @@ One line per session. Fill in the Sunday review with Varun.
 **Sunday review:**
 - Teach-back problem:
 - Varun's hardest "why?":
-- Connect question answer:
+- Connection answer (same idea, different clothes):
+  - Theme from `toolkit/CONNECTIONS.md`:
+  - Place 1:
+  - Place 2:
+  - Why they are the same idea (one sentence):
 - Next week, change:
 
 <!-- Copy the Week 4 block for each new week. -->

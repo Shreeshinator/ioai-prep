@@ -1,5 +1,7 @@
 # Moves: names for ideas you'll discover
 
+A **move** is a reusable solving action: when you see a cue in a new question, you use the same action again.
+
 > **Don't memorise this page.** Each move is something you should *find yourself* while solving the linked problems. Come here **after** you've met a move, to put a name on it. Then write it in **your own words** under "Moves I own" in `log/ERROR_LOG.md`. A move you only read about won't fire in the exam; one you discovered will.
 
 Each entry gives: **Cue** (what in a question should make you think of it) · **Idea** · **Why it's true** · **Where you meet it**.
