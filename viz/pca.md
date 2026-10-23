@@ -254,14 +254,14 @@ $C$ has exactly the same eigenvectors as $S$, and every eigenvalue is divided by
 **Why the covariance matrix captures variance in any direction.** For a unit direction $u$, the variance of the shadows is
 
 $$
-\operatorname{Var}(t)=\frac{1}{n}\sum t^2=u^\top C u.
+\text{Var}(t)=\frac{1}{n}\sum t^2=u^\top C u.
 $$
 
 Read that formula slowly. The diagonal of $C$ contributes each feature's own variance; the off-diagonal contributes the "do they move together" term. A direction that lines up with a high-variance feature and with the direction of co-movement gets a large value. PCA's entire job is to choose $u$ to maximize this quantity. The covariance matrix is therefore not an arbitrary container: it is the object that turns "variance along $u$" into a matrix expression, so that the search over directions becomes an eigenproblem.
 
 **Two useful facts.**
 
-- $\operatorname{trace}(S)=a+b=\sum x^2+\sum y^2$ is the **total spread**.
+- $\text{trace}(S)=a+b=\sum x^2+\sum y^2$ is the **total spread**.
 - $\det(S)=ab-c^2$ measures how genuinely two-dimensional the cloud is. If one feature were an exact linear function of the other, $\det(S)=0$ and all points would lie on a line.
 
 Both quantities reappear when we solve for the eigenvalues in 7e.
@@ -319,11 +319,11 @@ for some number $\lambda$. That number $\lambda$ (the Greek letter lambda) is th
 - **Products and sums.** The eigenvalues satisfy
 
   $$
-  \lambda_1+\lambda_2=\operatorname{trace}(S),\qquad
+  \lambda_1+\lambda_2=\text{trace}(S),\qquad
   \lambda_1\lambda_2=\det(S).
   $$
 
-  Here $\operatorname{trace}(S)=a+b$ is the sum of the diagonal entries, and $\det(S)=ab-c^2$ is the determinant; both are defined formally in 7e. Together they remember the total spread and how two-dimensional the cloud is. Checking these identities is a fast way to catch arithmetic mistakes.
+  Here $\text{trace}(S)=a+b$ is the sum of the diagonal entries, and $\det(S)=ab-c^2$ is the determinant; both are defined formally in 7e. Together they remember the total spread and how two-dimensional the cloud is. Checking these identities is a fast way to catch arithmetic mistakes.
 
 **The aha: PC1 is the eigenvector with the largest eigenvalue, and the spread along it equals that eigenvalue.** Compare the table with the 7a curve: the peak of the spread curve is at the "not turned" direction, and the peak height is the stretch factor.
 
@@ -479,13 +479,13 @@ A nonzero vector $u$ can solve $(S-\lambda I)u=0$ only when the matrix $S-\lambd
 Here $a+b$ is called the **trace** (the sum of the diagonal), and $ab-c^2$ is the **determinant**, written $\det$. So:
 
 $$
-\lambda^2-\operatorname{trace}\cdot\lambda+\det=0.
+\lambda^2-\text{trace}\cdot\lambda+\det=0.
 $$
 
 The **quadratic formula** solves it:
 
 $$
-\lambda=\frac{\operatorname{trace}\pm\sqrt{\operatorname{trace}^2-4\det}}{2}.
+\lambda=\frac{\text{trace}\pm\sqrt{\text{trace}^2-4\det}}{2}.
 $$
 
 The two roots always add up to the trace. (Multiply out $(\lambda-\lambda_1)(\lambda-\lambda_2)=\lambda^2-(\lambda_1+\lambda_2)\lambda+\lambda_1\lambda_2$ and compare it with the equation.) Since the trace is $\sum x^2+\sum y^2$, the fraction PC1 keeps can also be written $\lambda_1/(\lambda_1+\lambda_2)$. That is the form practice problem 3.5 uses.
@@ -493,7 +493,7 @@ The two roots always add up to the trace. (Multiply out $(\lambda-\lambda_1)(\la
 **Reading the roots.** For a symmetric $2\times2$ matrix the discriminant simplifies:
 
 $$
-\operatorname{trace}^2-4\det
+\text{trace}^2-4\det
 =(a+b)^2-4(ab-c^2)
 =(a-b)^2+4c^2\ge0,
 $$
@@ -740,7 +740,7 @@ $$
 \begin{bmatrix}\sum x^2 & \sum xy\\ \sum xy & \sum y^2\end{bmatrix}
 $$
 
-with the largest eigenvalue $\lambda_1$. The fraction of variance it explains is $\lambda_1/(\lambda_1+\lambda_2)$. For a $2\times2$ matrix, the eigenvalues solve $\lambda^2-(\operatorname{trace})\lambda+\det=0$.
+with the largest eigenvalue $\lambda_1$. The fraction of variance it explains is $\lambda_1/(\lambda_1+\lambda_2)$. For a $2\times2$ matrix, the eigenvalues solve $\lambda^2-(\text{trace})\lambda+\det=0$.
 
 The points are $(-2,-1),(-1,-1),(0,0),(1,1),(2,1)$. They are already centred.
 
@@ -877,7 +877,7 @@ $$
 
 Compare with $\lambda^2-14\lambda+4$: the roots add up to the trace, $14$. And the trace is $\sum x^2+\sum y^2=\sum(x^2+y^2)$, the total of the squared distances from the centre: the total spread in all directions. So PC1 captures $13.708$ of the $14$ units of spread, and PC2 only $0.292$. That fits the sketch: the five points lie almost on a line.
 
-**What to remember:** PC1 is the direction of greatest spread. For a $2\times2$ scatter matrix, get $\lambda$ from $\lambda^2-(\operatorname{trace})\lambda+\det=0$, then the slope $v_2/v_1$ from one row of "$Sv=\lambda v$". Fraction explained $=\lambda_1/\operatorname{trace}$. Sketch first and kill options: the answer leans toward the axis with more spread.
+**What to remember:** PC1 is the direction of greatest spread. For a $2\times2$ scatter matrix, get $\lambda$ from $\lambda^2-(\text{trace})\lambda+\det=0$, then the slope $v_2/v_1$ from one row of "$Sv=\lambda v$". Fraction explained $=\lambda_1/\text{trace}$. Sketch first and kill options: the answer leans toward the axis with more spread.
 
 **Common trap:** writing the slope upside down. $v_1/v_2=1/0.618=1.618$ gives about $58^\circ$, which is exactly the distractor in the options. Slope is rise over run, $v_2/v_1$. The kill step catches this mistake: $58^\circ$ is steeper than $45^\circ$, which the sketch already ruled out.
 
@@ -941,7 +941,7 @@ It is tracked as [Issue #1](https://github.com/Shreeshinator/ioai-prep/issues/1)
 - PCA chooses the unit direction $u$ that maximizes the spread $\sum(u\cdot p)^2$ of the centred data.
 - The spread in every direction is controlled by three sums: $\sum x^2$, $\sum y^2$, and $\sum xy$. Arranged as the scatter matrix $S$, they give $\text{spread}(u)=u^\top Su$.
 - The maximizing direction is an eigenvector of $S$, and the maximum spread is its eigenvalue. The top eigenvector is PC1.
-- For a $2\times2$ matrix, solve $\lambda^2-(\operatorname{trace})\lambda+\det=0$, then get the slope from $u_2/u_1=(\lambda-a)/c$. The fraction PC1 keeps is $\lambda_1/(\lambda_1+\lambda_2)$.
+- For a $2\times2$ matrix, solve $\lambda^2-(\text{trace})\lambda+\det=0$, then get the slope from $u_2/u_1=(\lambda-a)/c$. The fraction PC1 keeps is $\lambda_1/(\lambda_1+\lambda_2)$.
 - In $d$ dimensions, keep the top $k$ eigenvectors, project with $t=U_k^\top p$, and reconstruct with $\hat p=U_kU_k^\top p$. The retained fraction is the sum of the top $k$ eigenvalues divided by the total.
 - PCA is unsupervised, linear, and scale-sensitive. Standardize features when their units differ, and do not assume a low-variance direction is useless for classification.
 
@@ -971,5 +971,5 @@ It is tracked as [Issue #1](https://github.com/Shreeshinator/ioai-prep/issues/1)
 | **Spread** | $\sum t^2$, the sum of squared projections on a direction. For centred data it is proportional to variance. |
 | **Standard deviation** | The square root of the variance; it measures spread in the same units as the feature. |
 | **Standardization** | Subtracting the mean and dividing by the standard deviation, so each feature has mean 0 and variance 1. |
-| **Trace** | The sum of the diagonal entries. For a $2\times2$ scatter matrix, $\operatorname{trace}=\sum x^2+\sum y^2$, the total spread. |
+| **Trace** | The sum of the diagonal entries. For a $2\times2$ scatter matrix, $\text{trace}=\sum x^2+\sum y^2$, the total spread. |
 | **Variance** | The average squared deviation from the mean. Population variance divides by $n$; sample variance divides by $n-1$. |
